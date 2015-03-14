@@ -81,7 +81,7 @@
 
 
       <div itemscope itemtype="http://schema.org/Organization">
-        <p><span itemprop="name">Med Mechanics</span></p>
+        <p><span itemprop="name">Mаd Mechanics</span></p>
         
         <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
           <p>Адрес:
