@@ -1,0 +1,104 @@
+html {  position: relative;  min-height: 100%;}
+body { min-height: 100%; font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; padding: 0; margin: 0;}
+ .wrapper{ margin-bottom: 150px; min-height: 100%;}
+
+.navbar {margin-bottom: 0px;}
+.navbar-top{min-height: 200px; background:url('../img/road-0.jpg') no-repeat; background-size: cover;}
+.navbar-login{ margin: 55px auto; }
+/*.navbar-menu{background: #eaeaea;}*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background-color:#d8d8d8; margin-top: -1px;}
+
+/*.navbar-menu{background: #eaeaea; height: 50px;}*/
+.header-logo{  height: 195px; margin: 0;}
+.header-text{ font-size: 18px; color: #fff; margin: 20px;}
+.header-text span{color: #ff0000; font-size: 40px}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+.white{color: #fff;}
+.head{font-size: 30px; min-height: 70px; margin: 0; padding: 20px;}
+.opacity{background: rgba(255,255,255,0.8);}
+.bg-dark{background: rgb(41, 41, 41);  color: #eee;}
+.bg-light{background: #eee; color: #474747;}
+
+/* предопределенные стили a, p, i, span, btn */
+aтали н.more_info{width: 52px; height: 22px; display: block; background:  url('../img/more_info.png') 0 0 no-repeat; text-decoration: none;}
+a.more_info:hover{background:  url('../img/more_info.png') 0 -22px no-repeat;}
+a.more_info:active{background:  url('../img/more_info.png') 0 -44px no-repeat;}
+
+.txt1{color: #58595d; font-size: 16px;}
+.txt2{color: #000; font-size: 19px}
+
+span.uppercase{text-transform: uppercase}
+span.big{font-size: 30px; line-height: 1;}
+
+.btn-txt{color: #198381; border: none; background: none; text-decoration: none;}
+.btn-txt:hover{text-decoration: none; color: #198381;}
+.btn-submit{width: 100%; color: #fff; background: #222; border: none;}
+.row-block{margin: 30px 0 50px; }
+.img-circle {border: 5px solid #efefef; position: relative; width: 150px; height: 150px;}
+
+/* end предопределенные стили */
+
+
+/*we_do*/
+#we_do{background: #af0000;}
+#we_do h3{text-align: center; color: #efefef}
+#we_do .row-block{margin:50px 0; }
+#we_do .img-circle{ -webkit-filter: grayscale(100%);}
+
+/*advantage*/
+#advantage .bg-block{background-image: url("../img/car-repair.jpg");background-position: center center;
+background-attachment: fixed;background-size: cover;background-repeat: no-repeat;}
+#advantage .row-block{margin:50px 0 70px; }
+#advantage .block{display: block; border: solid 5px #ddd; height: 105px;}
+#advantage .block p{padding: 10px; margin: 10px;}
+#advantage h3{background:#eee; color: #c20000; margin: 0 0 -15px 0; }
+#advantage h3 span{background:#eee; padding: 0 20px }
+#advantage .col-lg-4 {margin: 20px 0;}
+
+/* service */
+#service li{margin: 10px;}
+
+/*comment*/
+#comment .opacity{background: rgba(255,255,255,0.2);}
+.carousel { min-height: 400px;}
+#comment .center{margin: 40px 0;}
+#comment p{color: #8b8b8b;}
+#comment .name{color: #fff; font-size: 20px; margin: 20px 0 10px;}
+#comment 
+
+/*block_form*/
+#block_form{ background: #94dfc1;}
+.block-form-bg{background: url('../img/winter.jpg'); background-position: center center;
+background-attachment: fixed;background-size: cover;background-repeat: no-repeat;}
+/*#block_form .head{background:#fff; }*/
+#block_form .left-bg{background: #eee; }
+#block_form .left-block{ padding: 30px; color: #af0000}
+#block_form .right-block{background: #af0000; padding: 30px 50px 15px;}
+#block_form .border{ padding: 10px; border: 1px solid #039a8d; margin: 30px 0;}
+#contact_text .row {margin: 10px 0; }
+#contact_text p {color: #eee; margin: 10px;}
+#contact_text a, #contact_text a:hover{color: #eee; text-decoration: none;}
+
+/*social*/
+#social{background: #eee;}
+
+/*footer*/
+#footer{background: #222; padding:10px; position: absolute; bottom: 0; width: 100%; height: 150px; }
+
+
+/*projects*/
+.projects_name{ color: #198381; font-size: 18px; font-weight: bold;}
+input[type=checkbox], input[type=radio] {margin: 4px 6px 0 0;}
+.border-left{border-left: 1px solid #ddd;}
+
+/*project_one_full*/
+.image-logo .img-logo{width: 100%}
+
+@media screen and (max-width: 768px){
+    .trapezoid-block {border:0;}
+    .trapezoid {margin: 0;}
+}
+

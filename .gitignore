@@ -1,0 +1,7 @@
+CONTRIBUTING.md
+README.md
+composer
+composer.lock
+vendor/
+public/upload
+

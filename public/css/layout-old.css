@@ -1,0 +1,81 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  margin-bottom: 60px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.clear{clear: both;}
+h1{font-size: 22px;}
+h2{font-size: 18px;}
+.right{float: right; }
+.left{float: left; }
+
+.navbar-brand {padding: 0;}
+.navbar{background: #e2e2e2; padding: 5px 0; margin-bottom: 5px; height: 150px}
+.navbar-default .navbar-nav>li>a {color: #4d4d4d; font-weight: bold;}
+.navbar-default .navbar-nav>li>a:hover{color: #FFFFFF;}
+.line1>li>a { margin-left: 100px;}
+.col-project>li{ color: #FFFFFF; border-left: 1px solid; min-width: 110px;}
+.col-project>li>p{margin: 5px 7px; line-height: 13px;}
+.nav-menu{ border-bottom: 1px solid; }
+.nav-pills>li>a { border-radius: 0;}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {background-color: #ff8000;}
+.nav>li>b {position: relative; display: block; padding: 10px 15px;}
+.page-header {margin: 0px 0 20px;}
+
+.login-group{width: 320px;}
+.login-group input.form{width: 133px;}
+
+#partners{margin:20px 0;}
+.bxslider img{height: 100px; }
+.bx-wrapper{min-width: 1020px !important; }
+.bx-wrapper .bx-viewport { box-shadow: none !important; }
+.bg-gray p{background: #eee; padding: 5px;}
+.img-logo{width: 100px;}
+
+.h1{font-size: 18px; color: #ff8000;}
+.no-p-l{padding-left: 0;}
+
+#blockcomment{display: none;}
+
+i.glyphicon-remove{color: #AFAFAF}
+i.glyphicon-remove:hover{color: #333}
+
+.link:hover{ cursor: pointer;}
+
+.anchor{cursor:pointer;cursor:hand; text-decoration:none;}
+
+@media (max-width: 993px){
+.line1>li>a { margin-left: 10px;}
+}
+
+/* alert connect */
+    #alertOverlay{width:100%; height:100%; position:fixed; left:0px; top:0px; z-index:55; background:#333; display:none; }
+    /*Сам блок с текстом и ссылками*/
+    #alert{ width:396px; padding:29px 43px; background:#fff; position:fixed; left:50%; margin-left:-241px; top:50%; z-index:56; }
+    /*Заголовок блока*/
+    #alertH1{ padding-bottom:13px; }
+    /*Текст, который будет под заголовком*/
+    #alertText{ color:#969199; font-size:12px; font-family: Arial; }
+    /*Вид ссылок в тексте*/
+    #alertText a{ color:#333; }
+    /*Вид ссылок в тексте при наведении*/
+    #alertText a:hover{ text-decoration:none; color:#ed1e79; }
+    #alert div.otbivka{ height:71px; background:url(bg.gif) repeat-x bottom; }
+    /*Кнопка ОК*/
+    #alert div.button{ width:112px; margin:29px auto 0 auto; height:38px; line-height:38px; text-align:center; color:#fff; background:#333; border-radius: 8px;
+        -moz-border-radius: 8px; -webkit-border-radius: 8px; cursor:pointer; text-transform:uppercase; font-size:18px; }
+/* alert connect end */
