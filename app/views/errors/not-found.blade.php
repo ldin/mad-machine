@@ -1,15 +1,13 @@
-@extends('admin.layouts.default')
+@extends('home.layouts.layout-page')
 
 @section('title')
 Страница не найдена
 @stop
 
-@section('navbar')
-    
-@stop
 
 @section('content')
 <div class="container">
+
     @if (Session::has('status'))
         <div class="alert alert-success">
             {{ Session::get('status') }}

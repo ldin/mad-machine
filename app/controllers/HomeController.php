@@ -24,22 +24,26 @@ class HomeController extends BaseController {
         $projects = Project::limit(10)->get(array('name', 'slug'));
         $post = Post::where('slug', '=', $slug)->first();
 
-        if($post->parent==0){
-            $parent = $post->id;
-        } else{
-            $parent = $post->parent;
-        }
-
-        $categories = Post::where('parent', $parent)->where('watch', '1')->get(array('id', 'slug', 'name'));
-        $parent = Post::where('id', $parent)->first(array('id', 'slug', 'name', 'offer_name', 'offer_text'));
-// var_dump(count($pages));
-        $view = array(
+         $view = array(
             'pages_all' => $pages_all,
-            'parent' => $parent,
             'projects' => $projects,
             'post' => $post,
-            'categories' => $categories
          );
+        
+        if(isset($post->parent)){
+            if($post->parent==0){
+                $parent = $post->id;
+            } else{
+                $parent = $post->parent;
+            }
+
+            $categories = Post::where('parent', $parent)->where('watch', '1')->get(array('id', 'slug', 'name'));
+            $parent = Post::where('id', $parent)->first(array('id', 'slug', 'name', 'offer_name', 'offer_text'));
+            $view['categories'] = $categories;
+            $view['parent'] = $parent;
+
+         }
+
 
 
         return View::make( ($slug=='main')?'home.main':'home.page', $view);

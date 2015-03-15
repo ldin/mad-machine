@@ -1,12 +1,12 @@
 @extends('home.layouts.layout-page')
 
 @section('title')
-  {{ $post->title }}
+  {{ isset($post->title)&&($post->title)?$post->title:'Страница не найдена' }}
 @stop
 
 
 @section('left_menu')
-  @if( count($categories)>0 )
+  @if( isset($categories)&&count($categories)>0 )
       <div class="panel panel-default">
         <div class="panel-heading">
           <p class="panel-title">{{ $parent->name }}</p>
@@ -23,14 +23,20 @@
 @stop
 
 @section('offer')
-<h2 >{{ strlen($post->offer_name)>0?$post->offer_name:$parent->offer_name }}</h2>
-{{ strlen($post->offer_name)>0?$post->offer_text:$parent->offer_text }}
+  @if(isset($post))
+    <h2 >{{ strlen($post->offer_name)>0?$post->offer_name:$parent->offer_name }}</h2>
+    {{ strlen($post->offer_text)>0?$post->offer_text:$parent->offer_text }}
+  @endif
 @stop
 
 @section('main_block')
 
-  {{ $post->text }}
-
+  @if(isset($post))
+    {{ $post->text }}
+  @else
+    <h2>Страница не найдена</h2>
+    <p><a href="/">На главную</a></p>
+  @endif
 
 @stop
 
