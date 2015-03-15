@@ -47,6 +47,8 @@ span.big{font-size: 30px; line-height: 1;}
 #we_do h3{text-align: center; color: #efefef}
 #we_do .row-block{margin:50px 0; }
 #we_do .img-circle{ -webkit-filter: grayscale(100%);}
+#we_do .uslugi:hover h3{color: #000;}
+#we_do .uslugi:hover img{border-color: #000;}
 
 /*advantage*/
 #advantage .bg-block{background-image: url("../img/car-repair.jpg");background-position: center center;

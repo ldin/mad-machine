@@ -79,20 +79,31 @@
     <footer id="footer" class="white footer">
       <div class="container">
 
-
-      <div itemscope itemtype="http://schema.org/Organization">
-        <p><span itemprop="name">Mаd Mechanics</span></p>
-        
-        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-          <p>Адрес:
-          <span itemprop="streetAddress">Хорошовское шоссе, 96с3</span>
-          <span itemprop="addressLocality">Москва</span>,</p>
+        <div class="col-xs-12 col-sm-6">
+          <div itemscope itemtype="http://schema.org/Organization">
+            <p><span itemprop="name">Mаd Mechanics</span></p>
+            
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              <p>Адрес:
+              <span itemprop="streetAddress">Хорошовское шоссе, 96с3</span>
+              <span itemprop="addressLocality">Москва</span>,</p>
+            </div>
+            <p>Телефон:<span itemprop="telephone"> +7 965 353-98-98</span>,<br>
+            Электронная почта: <span itemprop="email">info@madmech.ru</span></p>
+          </div>
+          <!-- http://schema.org/AutoRepair -->
         </div>
-        <p>Телефон:<span itemprop="telephone"> +7 965 353-98-98</span>,<br>
-        Электронная почта: <span itemprop="email">info@madmech.ru</span></p>
+        <div class="col-xs-12 col-sm-6 text-right">
+        <br/><br/><br/>
+            <!-- Yandex.Metrika informer -->
+            <a href="https://metrika.yandex.ru/stat/?id=28155948&amp;from=informer"
+            target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/28155948/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+            style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:28155948,lang:'ru'});return false}catch(e){}"/></a>
+            <!-- /Yandex.Metrika informer -->          
+        </div>
+
+
       </div>
-      <!-- http://schema.org/AutoRepair -->
-       
     </footer>
 
    <script src="/js/bootstrap.min.js"></script>

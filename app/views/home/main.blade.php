@@ -13,41 +13,53 @@
         <div class="container">            
             <div class="row row-block">   
 
-                <div class="col-xs-6 col-sm-4 col-md-2">
-                    <div class="pic">
-                        <img class="img-circle" src="/img/painting.jpg" alt="">
-                    </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
+                    <a href="/okraska-detali-i-lokalnyiy-remont" class="a_uslugi">
+                      <div class="pic">
+                          <img class="img-circle" src="/img/painting.jpg" alt="">
+                      </div> 
+                    </a>                     
                     <h3>Локальная покраска</h3>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-xs-6 col-sm-4 col-md-2">
-                    <div class="pic">
-                        <img class="img-circle" src="/img/painting2.jpg" alt="">
-                    </div>                  
+                <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
+                    <a href="/polnaya-pokraska" class="a_uslugi">
+                      <div class="pic">
+                          <img class="img-circle" src="/img/painting2.jpg" alt="">
+                      </div> 
+                    </a>                 
                     <h3>Полная покраска</h3>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-xs-6 col-sm-4 col-md-2">
-                    <div class="pic">
-                        <img class="img-circle" src="/img/painting3.jpg" alt="">
-                    </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
+                    <a href="/" class="a_uslugi">
+                      <div class="pic">
+                          <img class="img-circle" src="/img/painting3.jpg" alt="">
+                      </div>
+                    </a>
                     <h3>Установка обвесов</h3>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-xs-6 col-sm-4 col-md-2">
-                    <div class="pic">
-                        <img class="img-circle" src="/img/painting5.jpg" alt="">
-                    </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
+                    <a href="/remont-bamperov" class="a_uslugi">
+                      <div class="pic">
+                          <img class="img-circle" src="/img/painting5.jpg" alt="">
+                      </div>
+                    </a>
                     <h3>Ремонт пластиковых бамперов</h3>
                 </div><!-- /.col-lg-4 -->
                 
-                <div class="col-xs-6 col-sm-4 col-md-2">
-                    <div class="pic">
-                        <img class="img-circle" src="/img/painting4.jpg" alt="">
-                    </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 uslugi ">
+                    <a href="/shumoizolyatsiya" class="a_uslugi">
+                      <div class="pic">
+                          <img class="img-circle" src="/img/painting4.jpg" alt="">
+                      </div>
+                    </a>
                   <h3>Шумоизоляция авто</h3>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-xs-6 col-sm-4 col-md-2">
-                    <div class="pic">
-                        <img class="img-circle" src="/img/painting5.jpg" alt="">
-                    </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
+                    <a href="/aerografiya" class="a_uslugi">
+                      <div class="pic">
+                          <img class="img-circle" src="/img/painting5.jpg" alt="">
+                      </div>
+                    </a>
                   <h3>Аэрография</h3>
                 </div><!-- /.col-lg-4 -->
 
