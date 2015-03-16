@@ -203,7 +203,7 @@
                         </p>
                     </div>
                     <div class="col-md-4 center">
-                        <img class="img-circle" src="/image/people6.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                        <img class="img-circle" src="/img/people6.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
                         <p  class="name">Анна</p>
                         <p>
                             На новой машине притерла бампер, отдала на работу в ночь, к утру забрала, как будто и ничего не было! Спасибо ребята!!!

@@ -97,9 +97,9 @@
         <br/><br/><br/>
             <!-- Yandex.Metrika informer -->
             <a href="https://metrika.yandex.ru/stat/?id=28155948&amp;from=informer"
-            target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/28155948/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+            target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/28155948/3_0_D42020FF_B40000FF_1_pageviews"
             style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:28155948,lang:'ru'});return false}catch(e){}"/></a>
-            <!-- /Yandex.Metrika informer -->          
+            <!-- /Yandex.Metrika informer -->    
         </div>
 
 
