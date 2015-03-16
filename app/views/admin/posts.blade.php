@@ -77,6 +77,7 @@
 <script type="text/javascript" >
     $(document).ready(function() {
         var ckeditor = CKEDITOR.replace( 'wysiwyg_textarea' );
+        ckeditor.config.protectedSource.push(/<(script)[^>]*>.*<\/script>/ig);
         AjexFileManager.init({returnTo: 'ckeditor', editor: ckeditor});
     });
 
