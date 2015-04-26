@@ -7,7 +7,7 @@ body { min-height: 100%; font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Aria
 .navbar-login{ margin: 55px auto; }
 /*.navbar-menu{background: #eaeaea;}*/
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background-color:#d8d8d8; margin-top: -1px;}
-
+.text-uppercase{font-size: 18px;}
 /*.navbar-menu{background: #eaeaea; height: 50px;}*/
 .header-logo{  height: 195px; margin: 0;}
 .header-text{ font-size: 18px; color: #fff; margin: 20px;}
@@ -54,9 +54,9 @@ span.big{font-size: 30px; line-height: 1;}
 #advantage .bg-block{background-image: url("../img/car-repair.jpg");background-position: center center;
 background-attachment: fixed;background-size: cover;background-repeat: no-repeat;}
 #advantage .row-block{margin:50px 0 70px; }
-#advantage .block{display: block; border: solid 5px #ddd; height: 105px;}
-#advantage .block p{padding: 10px; margin: 10px;}
-#advantage h3{background:#eee; color: #c20000; margin: 0 0 -15px 0; }
+#advantage .block{display: block; border: solid 5px #ddd; height: 135px;}
+#advantage .block p{padding: 20px 10px; margin: 10px;}
+#advantage h3{background:#eee; color: #c20000; margin: 0 0 -15px 0; padding: 15px;}
 #advantage h3 span{background:#eee; padding: 0 20px }
 #advantage .col-lg-4 {margin: 20px 0;}
 
