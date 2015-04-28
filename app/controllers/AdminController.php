@@ -372,7 +372,44 @@ class AdminController extends BaseController {
                     ->with('success', 'Изменения сохранены');
         }
 
+        public function getCreateSitemap(){
+            $urlroot=Config::get('app.url');
+            $page = Post::where('type', '=', 'page')->get(array('slug','updated_at'));
 
+            // var_dump($page); die();
+            $xml=new DomDocument('1.0','utf-8');
+
+            $urlset = $xml->createElement('urlset');
+            $urlset -> setAttribute('xmlns', 'http://www.sitemaps.org/schemas/sitemap/0.9');
+
+            foreach($page as $post){
+
+                    $url = $xml->createElement('url');
+                    $urlset->appendChild($url);
+
+                    $loc = $xml->createElement('loc');
+                    $url->appendChild($loc);
+
+                    $loc->appendChild($text = $xml->createTextNode($post->slug));
+
+                    $lastmod = $xml->createElement('lastmod');
+                    $url->appendChild($lastmod);
+
+                    $lastmod->appendChild($xml->createTextNode($post->updated_at));
+            }
+
+            $xml->appendChild($urlset);
+            $xml->formatOutput = true;
+            $xml->save('sitemap.xml');
+            //$xml->saveXML();
+
+            if (!@fopen('sitemap.xml', "r")) {
+                return Redirect::back()->with('error', 'ошибка при обновлении файла sitemap.xml');
+            }
+            return Redirect::back()->with('success', 'файл sitemap.xml обновлен');
+            // return Response::download('sitemap.xml');
+
+        }
 
 
 }

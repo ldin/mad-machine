@@ -5,7 +5,7 @@
 <? //var_dump($_GET); die(); ?>
 
 
-<div class="col-xs-12 col-md-8 settingsPage">
+<h1>Настройки</h1>
 
 @if(isset($settings))
 {{ Form::open(array('url' => 'admin/settings/', 'class' => 'form-group')) }}
@@ -31,8 +31,23 @@
 {{ Form::label('', '') . Form::submit('Сохранить', array( 'class' => 'btn btn-success')) }}       
 {{ Form::close(); }}
 @endif
-    
-</div>  
+
+<h2>Дополнительно</h2>
+ 
+    <div class="tab-content">
+        <div>
+                <br>
+                <div class="col-xs-4 col-md-2">
+                    Обновить карту сайта sitemap.xml
+                </div>
+                <div class="col-xs-8  col-md-6">
+                    <a href="/admin/create-sitemap" class="btn btn-default">Обновить</a>
+                </div>
+                <div class="clear"></div>
+        </div>
+
+        <br>
+    </div>   
 
 @stop
 
