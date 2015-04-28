@@ -44,7 +44,8 @@ span.big{font-size: 30px; line-height: 1;}
 
 /*we_do*/
 #we_do{background: #af0000;}
-#we_do h3{text-align: center; color: #efefef}
+#we_do h1{font-weight: bold; color: #1f1f1f; margin: 40px 0;}
+#we_do .usluga{font-size: 22px; text-align: center; color: #efefef; margin: 20px 0; line-height: 1.1;}
 #we_do .row-block{margin:50px 0; }
 #we_do .img-circle{ -webkit-filter: grayscale(100%);}
 #we_do .uslugi:hover h3{color: #000;}

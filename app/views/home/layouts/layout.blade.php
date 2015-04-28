@@ -24,7 +24,11 @@
         <nav class="navbar navbar-top navbar-inverse ">
           <div class="container">
             <div class="col-xs-12 col-sm-6">
-              <p class="header-text"><span>+7 (965) 353-98-98</span><br /> Хорошовское шоссе 96с3</p>
+              
+              <p class="header-text">
+                <span>+7 (965) 353-98-98</span>
+                <br /> Хорошовское шоссе 96, с. 3
+              </p>
 
             </div><!--/.navbar-collapse -->
             <div class="col-xs-12 col-sm-6 text-right">

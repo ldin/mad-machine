@@ -9,8 +9,8 @@
     <article id="we_do">
       <div class="bg-block">
 
-        <!-- <h2  class="head text-center color-light opacity">Что мы делаем для Вас</h2> -->
-        <div class="container">            
+        <div class="container"> 
+            <h1 class="text-center">Автосервис Mad Mechanics</h1>          
             <div class="row row-block">   
 
                 <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
@@ -19,7 +19,7 @@
                           <img class="img-circle" src="/img/painting.jpg" alt="">
                       </div> 
                     </a>                     
-                    <h3>Локальная покраска</h3>
+                    <p class="usluga">Локальная покраска</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
                     <a href="/polnaya-pokraska" class="a_uslugi">
@@ -27,7 +27,7 @@
                           <img class="img-circle" src="/img/painting2.jpg" alt="">
                       </div> 
                     </a>                 
-                    <h3>Полная покраска</h3>
+                    <p class="usluga">Полная покраска</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
                     <a href="/" class="a_uslugi">
@@ -35,7 +35,7 @@
                           <img class="img-circle" src="/img/painting3.jpg" alt="">
                       </div>
                     </a>
-                    <h3>Установка обвесов</h3>
+                    <p class="usluga">Установка обвесов</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
                     <a href="/remont-bamperov" class="a_uslugi">
@@ -43,7 +43,7 @@
                           <img class="img-circle" src="/img/painting5.jpg" alt="">
                       </div>
                     </a>
-                    <h3>Ремонт пластиковых бамперов</h3>
+                    <p class="usluga">Ремонт пластиковых бамперов</p>
                 </div><!-- /.col-lg-4 -->
                 
                 <div class="col-xs-6 col-sm-4 col-md-2 uslugi ">
@@ -52,7 +52,7 @@
                           <img class="img-circle" src="/img/painting4.jpg" alt="">
                       </div>
                     </a>
-                  <h3>Шумоизоляция авто</h3>
+                  <p class="usluga">Шумоизоляция авто</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
                     <a href="/aerografiya" class="a_uslugi">
@@ -60,7 +60,7 @@
                           <img class="img-circle" src="/img/painting5.jpg" alt="">
                       </div>
                     </a>
-                  <h3>Аэрография</h3>
+                  <p class="usluga">Аэрография</p>
                 </div><!-- /.col-lg-4 -->
 
                 <div class="clear"></div>
@@ -323,13 +323,16 @@
         <div class="row row-block">
         <script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
         <div class="col-xs-12 col-sm-6">
-            <!-- VK Widget -->
+            <!-- VK Widget --> 
             <div id="vk_groups1" ></div>
             <script type="text/javascript">
             VK.Widgets.Group("vk_groups1", {mode: 2, wide: 1, width: "auto", height: "300"}, 76370545);
             </script>          
         </div>
-        <div class="col-xs-12 col-sm-6">
+<!--         <div class="col-xs-12 col-sm-6">
+          <iframe src='/inwidget/index.php?toolbar=false' scrolling='no' frameborder='no' style='border:none;width:260px;height:320px;overflow:hidden;'></iframe>
+        </div>-->
+        <div class="col-xs-12 col-sm-6"> 
           <!-- VK Widget -->
           <div id="vk_groups2"></div>
           <script type="text/javascript">
