@@ -329,16 +329,16 @@
             VK.Widgets.Group("vk_groups1", {mode: 2, wide: 1, width: "auto", height: "300"}, 76370545);
             </script>          
         </div>
-<!--         <div class="col-xs-12 col-sm-6">
-          <iframe src='/inwidget/index.php?toolbar=false' scrolling='no' frameborder='no' style='border:none;width:260px;height:320px;overflow:hidden;'></iframe>
-        </div>-->
-        <div class="col-xs-12 col-sm-6"> 
-          <!-- VK Widget -->
+         <div class="col-xs-12 col-sm-6">
+          <iframe src='/inwidget/index.php?toolbar=false' scrolling='no' frameborder='no' style='border:none;width:100%;height:300px;line:5;overflow:hidden;'></iframe>
+        </div>
+<!--         <div class="col-xs-12 col-sm-6"> 
+          <!-- VK Widget --v>
           <div id="vk_groups2"></div>
           <script type="text/javascript">
           VK.Widgets.Group("vk_groups2", {mode: 0, width: "auto", height: "300", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 76370545);
           </script>
-        </div>
+        </div> -->
 
 
 

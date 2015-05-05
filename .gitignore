@@ -4,4 +4,6 @@ composer
 composer.lock
 vendor/
 public/upload
+public/sitemap.xml
+
 
