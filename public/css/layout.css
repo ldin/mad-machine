@@ -1,6 +1,12 @@
 html {  position: relative;  min-height: 100%;}
 body { min-height: 100%; font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; padding: 0; margin: 0;}
- .wrapper{ margin-bottom: 150px; min-height: 100%;}
+
+@font-face {
+    font-family: Violet; /* Гарнитура шрифта */
+    src: url(../fonts/Violet.ttf); /* Путь к файлу со шрифтом */
+}
+.violet { font-family: Violet; font-size: 60px; }
+.wrapper{ margin-bottom: 150px; min-height: 100%;}
 
 .navbar {margin-bottom: 0px;}
 .navbar-top{min-height: 200px; background:url('../img/road-0.jpg') no-repeat; background-size: cover;}
@@ -11,7 +17,7 @@ body { min-height: 100%; font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Aria
 /*.navbar-menu{background: #eaeaea; height: 50px;}*/
 .header-logo{  height: 195px; margin: 0;}
 .header-text{ font-size: 18px; color: #fff; margin: 20px;}
-.header-text span{color: #ff0000; font-size: 40px}
+.header-text span{color: #ff0000; //font-size: 40px}
 
 .left{float: left;}
 .right{float: right;}
@@ -23,7 +29,7 @@ body { min-height: 100%; font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Aria
 .bg-light{background: #eee; color: #474747;}
 
 /* предопределенные стили a, p, i, span, btn */
-aтали н.more_info{width: 52px; height: 22px; display: block; background:  url('../img/more_info.png') 0 0 no-repeat; text-decoration: none;}
+a.more_info{width: 52px; height: 22px; display: block; background:  url('../img/more_info.png') 0 0 no-repeat; text-decoration: none;}
 a.more_info:hover{background:  url('../img/more_info.png') 0 -22px no-repeat;}
 a.more_info:active{background:  url('../img/more_info.png') 0 -44px no-repeat;}
 
@@ -44,7 +50,7 @@ span.big{font-size: 30px; line-height: 1;}
 
 /*we_do*/
 #we_do{background: #af0000;}
-#we_do h1{font-weight: bold; color: #1f1f1f; margin: 40px 0;}
+#we_do h1{color: #1f1f1f; margin: 40px 0; }
 #we_do .usluga{font-size: 22px; text-align: center; color: #efefef; margin: 20px 0; line-height: 1.1;}
 #we_do .row-block{margin:50px 0; }
 #we_do .img-circle{ -webkit-filter: grayscale(100%);}

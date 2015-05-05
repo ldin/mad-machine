@@ -26,7 +26,7 @@
             <div class="col-xs-12 col-sm-6">
               
               <p class="header-text">
-                <span>+7 (965) 353-98-98</span>
+                <span class="violet">+7 (965) 353-98-98</span>
                 <br /> Хорошовское шоссе 96, с. 3
               </p>
 

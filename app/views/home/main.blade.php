@@ -10,7 +10,7 @@
       <div class="bg-block">
 
         <div class="container"> 
-            <h1 class="text-center">Автосервис Mad Mechanics</h1>          
+            <h1 class="text-center violet">Автосервис Mad Mechanics</h1>          
             <div class="row row-block">   
 
                 <div class="col-xs-6 col-sm-4 col-md-2 uslugi">
