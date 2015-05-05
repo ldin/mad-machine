@@ -18,6 +18,7 @@ body { min-height: 100%; font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Aria
 .header-logo{  height: 195px; margin: 0;}
 .header-text{ font-size: 18px; color: #fff; margin: 20px;}
 .header-text span{color: #ff0000; //font-size: 40px}
+.header-text span.sm{ font-size: 45px; color: #fff;}
 
 .left{float: left;}
 .right{float: right;}
