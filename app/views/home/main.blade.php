@@ -302,7 +302,7 @@
                 </div>
                 <div class="col-xs-10 col-md-6 ">
                     <p>Мы находимся по адресу:</p>
-                    <p>Хорошовское шоссе 96с3. метро Полежаевская</p>
+                    <p>Веткина улица, 2Бс2</p>
                 </div>
               </div>
             </div><!-- /row -->
@@ -314,7 +314,7 @@
     </aside>
 
     <aside id="map">
-      <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=ZXAglQ3dACXgNoErddT5gCW8E6lIhlTF&height=350"></script>
+      <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=CbkYhNcFenyeuCnYwthcrjyq3w3DGbOA&height=350"></script>
     </aside>
 
     <aside id="social">

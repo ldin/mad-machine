@@ -27,7 +27,7 @@
               
               <p class="header-text">
                 <span class="violet"><span class="sm"> +7 (965) </span> 353-98-98</span>
-                <br /> Хорошовское шоссе 96, с. 3
+                <br /> Веткина улица, 2Бс2
               </p>
 
             </div><!--/.navbar-collapse -->
@@ -89,7 +89,7 @@
             
             <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
               <p>Адрес:
-              <span itemprop="streetAddress">Хорошовское шоссе, 96с3</span>
+              <span itemprop="streetAddress">Веткина улица, 2Бс2</span>
               <span itemprop="addressLocality">Москва</span>,</p>
             </div>
             <p>Телефон:<span itemprop="telephone"> +7 965 353-98-98</span>,<br>
